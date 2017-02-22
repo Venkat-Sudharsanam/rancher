@@ -86,14 +86,73 @@ Now check your browser with machineip:8080
 Machine_IP:8080
 ```
 
-Image
+![alt text](Images/1.png "Rancher Home")
 
 Now the Rancher has been istalled.
+
+### Access control
+
+This is a critical step where we have to assign what all the users can access Rancher,
+
+Follow the below step:
+
+select admin and select access control
+
+![alt text](Images/access/1.png)
+
+There are many options here, we are going to selet local,
+
+![alt text](Images/access/2.png)
+
+Now scroll down and set the username and password for the user and save it.
+
+![alt text](Images/access/3.png)
+
+After if we try accessing the Rancher, it will ask for the credentials, we should provide the correct credetials.
+
+### Adding Environment
+
+Creating an environment for specific containers.
+
+Here we are going to see how to create an environment for Kubernetes
+
+Follow the below procedure to create an Kubernetes environment
+
+Click on Manage Environment,
+![alt text](Images/6.png)
+
+Now click on the add environment
+![alt text](Images/7.png)
+
+Now give a name for the environment & select Environment Template, here it is Kubernetes
+
+![alt text](Images/8.png)
+
+Now we can see that our environment is created.
+
+![alt text](Images/9.png)
+
+Now go to the created Environment
+![alt text](Images/10.png)
 
 
 ###Adding a host in Rancher
 
-Images
+To add the first node to the environment, Click on Infrastructure and select host,
+
+![alt text](Images/2.png)
+
+Now select add host
+
+![alt text](Images/3.png)
+
+Now give the correct url where the rancher is created and save it.
+
+![alt text](Images/4.png)
+
+Now scrool down we can see the 4th point where there is a command, copy it &
+
+![alt text](Images/5.png)
 
 Now paste the copied command in the host machine where Rancher is running.
 
@@ -115,6 +174,3 @@ Digest: sha256:09847e60bb0ec4c5664352349616e356167e6d81c74041f1eb9d7b44984c5515
 Status: Downloaded newer image for rancher/agent:v1.2.0
 1fe6ced72445e04ff57f562aa2ea682e9daf03feb213b869cdea8178f9495624
 ```
-
-### Adding Environment
-
