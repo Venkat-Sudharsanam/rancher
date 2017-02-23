@@ -1,5 +1,11 @@
 ### This repo help you learn Rancher
 
+This tutorial supports:
+
+OS | Version
+--- | ---
+**Ubuntu** | **Xenial 16.04**
+
 This repo helps you to understand Rancher.
 
 We cover the below topic in this repo:
