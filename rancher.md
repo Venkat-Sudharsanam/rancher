@@ -4,6 +4,10 @@ Please check that docker is installed on the machine. Or kindly visit docker off
 
 Check docker is installed
 
+**Make sure that the docker version is less than or equal to 12**
+
+Rancher do not support the latest docker version which is v13
+
 ```
 docker version
 ```
@@ -13,7 +17,7 @@ Sample Output:
 ```
 docker version
 Client:
- Version:      1.13.1
+ Version:      1.12.1
  API version:  1.26
  Go version:   go1.7.5
  Git commit:   092cba3
@@ -21,7 +25,7 @@ Client:
  OS/Arch:      linux/amd64
 
 Server:
- Version:      1.13.1
+ Version:      1.12.1
  API version:  1.26 (minimum version 1.12)
  Go version:   go1.7.5
  Git commit:   092cba3
